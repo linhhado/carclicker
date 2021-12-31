@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Clicker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class = "container">
+        <div class="page-header">
+            <h1 style = "text-align: center">Car Clicker App</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 sidenav">
+                <h4>Car List</h4><hr></hr>
+                <ul id = "car-list" class = "nav nav-pills nav-stacked"></ul>
+            </div>
+            <div class="col-sm-8">
+                <h4 style = "text-align: center">Car Content</h4><hr></hr>
+                <div id = "car">
+                    <span style = "float: left"><h4 id = "car-name"></h4></span>
+                    <span style = "float: right"><h4>Vote count: <span id = "car-count" class = "badge badge-light"></span></h4></span>
+                </div>
+                        <img id = "car-image" src = "" width = 100%>
+            </div>
+        </div>
+    </div>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"
+    ></script>
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+    <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"
+    ></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
